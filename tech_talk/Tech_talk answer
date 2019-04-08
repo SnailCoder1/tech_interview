@@ -1,0 +1,46 @@
+1. 
+
+var = variable
+
+Data types in Ruby:
+
+Booleans = True or False
+Numbers 
+Strings = "Noel"
+Arrays = ['Pluto", "Wu Tang"]
+Hashes =  {school: "Crafted Minds", coach: "Faraz"}
+
+2.
+
+plane1 = {speed: 4,520 mph, passengers: 1, airline: "Space X"}
+plane2 = {speed: 1,120 mph, passengers: 179, airline: "SAS"}
+plane3 = {speed: 3,300 mph, passengers: 450, airline: "Norwegian"}
+
+planes = [plane1, plane2, plane3 ]
+planes = [2]
+
+
+4 - Rspec
+Initialize rspec in a folder. 
+
+We initialize the `rspec` in the desired folder. 
+Without forgeting to create a Gemfile file for our beloved 'rspec' gem sourced from http://rubygems.org'.
+
+We do ''rspec --init''. After, we open (.rspec)  and will always contain:
+
+--require spec_helper
+--format documentation
+--color
+
+Always bundle it! 
+
+We would ordinarily have written our tests first, then written code to make them pass. Why?
+
+Basically because we want to make sure we have a clear "User story" to facilitate our work flow with bugs/errors. 
+
+Sources:
+Prep course material
+Rspec Demo
+ATM Challenge
+
+
